@@ -39,7 +39,7 @@
     pages.tsx： app下的folder代表路由path，folder下需要有 pages.tsx
     layout.tsx: To share UI across multiple pages
 
-## Chapter5 Navigating Between Pages
+## Chapter5 导航
 
     使用a标签跳转，整个页面刷新
     使用Link, 跳转时局部刷新
@@ -52,4 +52,4 @@
 
     usePathname()获取当前path
 
-## Chapter6 Setting Up Your Database
+## Chapter6 创建数据库
