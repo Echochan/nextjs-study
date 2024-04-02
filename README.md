@@ -11,17 +11,17 @@
 
 ## Chapter3 optimise fonts and images
 
-next/font
+    next/font
 
-    ```js
-        import { Inter } from 'next/font/google';
-        export const inter = Inter({ subsets: ['latin'] });
-        <body className={`${inter.className}`}>{children}</body>
-    ```
+        ```js
+            import { Inter } from 'next/font/google';
+            export const inter = Inter({ subsets: ['latin'] });
+            <body className={`${inter.className}`}>{children}</body>
+        ```
 
-next/image
-    className: hidden-移动端移除dom，md:block-显示dom PC屏幕
-    width/height: 与源图像相同的宽高比(an aspect ratio identical to the source image)
+    next/image
+        className: hidden-移动端移除dom，md:block-显示dom PC屏幕
+        width/height: 与源图像相同的宽高比(an aspect ratio identical to the source image)
 
     ```js
         import Image from 'next/image';
@@ -36,8 +36,8 @@ next/image
 
 ## Chapter4 Creating Layouts and Pages
 
-pages.tsx： app下的folder代表路由path，folder下需要有 pages.tsx
-layout.tsx: To share UI across multiple pages
+    pages.tsx： app下的folder代表路由path，folder下需要有 pages.tsx
+    layout.tsx: To share UI across multiple pages
 
 ## Chapter5 Navigating Between Pages
 
