@@ -102,3 +102,11 @@
     use-debounce
 
 ## Chapter12 Mutating Data
+
+    React Server Actions 
+        - Progressive Enhancement
+        - 允许 run asynchronous code directly on the server
+        - also deeply integrated with Next.js caching
+    revalidatePath - 更新数据
+
+## Chapter13 错误处理
