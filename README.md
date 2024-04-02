@@ -53,3 +53,52 @@
     usePathname()获取当前path
 
 ## Chapter6 创建数据库
+
+    使用vercel，构建生产版项目
+
+## Chapter7 抓取数据
+
+    api layer - 应用和数据库之间的层
+    Server Components - 
+    SQL - 关系型数据库 industry standard，可以直接在server components种使用sql查询数据
+
+## Chapter8 静态渲染、动态渲染
+
+    静态渲染
+        更快
+        减少服务器负担
+        seo
+
+    动态渲染
+        优点
+            real-time data
+            user-specific content
+            request time information
+        unstable_noStore 退出静态渲染
+        限制：only as fast as your slowest data fetch
+
+## Chapter9 Streaming
+
+    streaming pages
+        loading.tsx 一个特殊的文件，允许创建后备ui，在页面内容加载完成后会被替换
+        Route groups：(overview)，loading.tsx + page.tsx 移入，对路由不可见
+
+    streaming components
+        React Suspense - more granular颗粒度
+        fallback-备选组件
+
+    ```js
+        <Suspense fallback={<CardSkeleton/>}>
+    ```
+
+## Chapter10 Partial Prerendering (Optional)
+
+## Chapter11 搜索和导航
+
+    searchParams, usePathname, and useRouter.
+    useSearchParams() / searchParams :
+        客户端读取，使用useSearchParams
+        服务端读取，使用searchParams
+    use-debounce
+
+## Chapter12 Mutating Data
