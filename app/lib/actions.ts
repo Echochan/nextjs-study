@@ -67,7 +67,6 @@ export async function updateInvoice(id: string, formData: FormData) {
         status: formData.get('status'),
     })
     const amountInCents = amount * 100;
-    const date = new Date().toISOString().split('T')[0];
     try{
         await sql`
             update invoices
