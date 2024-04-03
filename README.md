@@ -138,7 +138,7 @@
     useFormStatus
     useFormState
 
-## Chapter16 Adding Authentication
+## Chapter16 metadata
 
     provides additional details about a webpage
     a significant role in enhancing a webpage's SEO
