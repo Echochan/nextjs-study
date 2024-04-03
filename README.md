@@ -110,3 +110,52 @@
     revalidatePath - 更新数据
 
 ## Chapter13 错误处理
+
+    try/catch
+
+    error.tsx
+        use client
+        error / reset
+    notFound 函数 处理 404
+        not-found.tsx 返回fallback ui， 比error.tsx 优先级高
+
+## Chapter14 Improving Accessibility
+
+    eslint-plugin-jsx-a11y 
+        npm run lint
+        build 打包过程包含这一步
+    client-side form validation 
+        required
+    server-side form validation
+        useFormState
+
+## Chapter15 Adding Authentication
+
+    Authentication - making sure the user is who they say they are
+    Authorization  - what parts of the application they are allowed to use
+
+    NextAuth.js
+    useFormStatus
+    useFormState
+
+## Chapter16 Adding Authentication
+
+    provides additional details about a webpage
+    a significant role in enhancing a webpage's SEO
+
+    Title Metadata
+        <title>Page Title</title>
+    Description Metadata
+        <meta name="description" content="A brief description of the page content." />
+    Keyword Metadata
+        <meta name="keywords" content="keyword1, keyword2, keyword3" />
+    Open Graph Metadata - enhances the way a webpage is represented when shared on social media platforms, providing information such as the title, description, and preview image
+        <meta property="og:title" content="Title Here" />
+        <meta property="og:description" content="Description Here" />
+        <meta property="og:image" content="image_url_here" />
+    Favicon Metadata
+        <link rel="icon" href="path/to/favicon.ico" />
+
+    Next.js Api
+        Config-based: static metadata object in layout.js / page.js
+        File-based:   
